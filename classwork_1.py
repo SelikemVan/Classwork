@@ -9,9 +9,9 @@ def maximum(a, b, c):
         return c
 
 
-num1 = 10
-num2 = 25
-num3 = 15
+num1 = 30*1
+num2 = 30*2
+num3 = 30*3
 result = maximum(num1, num2, num3)
 print("The maximum number is:", result)
 
