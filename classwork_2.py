@@ -1,7 +1,6 @@
 
-def is_palindrome(word):
+def palindrome(word):
     my_str = word.lower()
-    # Reverse the string
     rev_str = my_str[::-1]
 
     # Compare the original and reversed strings
@@ -11,7 +10,7 @@ def is_palindrome(word):
         print("The string is not a palindrome.")
 
 
-is_palindrome("level")
-# is_palindrome("Python")
-# is_palindrome("radar")
-# is_palindrome("hello")
+palindrome("level")
+# palindrome("Python")
+# palindrome("radar")
+# palindrome("hello")
